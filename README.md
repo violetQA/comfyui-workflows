@@ -1,0 +1,1 @@
+# ComfyUI Workflows\n\nAI辅助细化工作流集合\n\n## 文件说明\n\n- `img2img_refine_v2.json` — 半成品增强质感（Img2Img + ControlNet Tile）\n- `inpaint_local_v2.json` — 局部重绘（Inpaint）\n\n## 使用方法\n\n1. ComfyUI 中 Load 该 JSON 文件\n2. 拖入你的图片到 LoadImage 节点\n3. 修改提示词\n4. Queue Prompt 生成\n\n## 降噪强度参考\n\n- 质感增强: 0.3-0.5\n- 局部重绘: 0.7-0.85\n
